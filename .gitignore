@@ -1,0 +1,62 @@
+# Python / build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~*
+*.checkpoint.ipynb
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Cache
+.cache/
+.cache_dir/
+.cache_*/
+**/__pycache__/
+*.tmp
+
+# Data & results (generated)
+data/
+results/
+outputs/
+artifacts/
+checkpoints/
+runs/
+
+# HuggingFace caches / large model files
+.huggingface/
+hf_cache/
+**/pytorch_model.bin
+**/pytorch_model-*.bin
+**/tf_model.h5
+**/rust_model.ot
+**/model.safetensors
+**/tokenizer.json
+**/tokenizer.model
+**/spiece.model
+
+# Your local config overrides
+*.local.yaml
+*.secrets.yaml
+.env
+.env.*
