@@ -35,14 +35,6 @@ wandb/
 **/__pycache__/
 *.tmp
 
-# Data & results (generated)
-data/
-results/
-outputs/
-artifacts/
-checkpoints/
-runs/
-
 # HuggingFace caches / large model files
 .huggingface/
 hf_cache/
